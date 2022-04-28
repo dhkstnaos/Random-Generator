@@ -14,7 +14,7 @@
 	<name>random-generator</name>
 	<description>랜덤 닉네임 생성기</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>1.8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
