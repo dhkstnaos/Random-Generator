@@ -12,6 +12,7 @@ public class RandomGenerator {
     private static final String POST_POSITION_1 = "과";
     private static final String POST_POSITION_2 = "와";
     private static final String POST_POSITION_3 = "으로";
+    private static final String WHITE_SPACE = " ";
     private static final String ADJECTIVE_TXT = "adjective.txt";
     private static final String NOUN_TXT = "noun.txt";
 
@@ -41,7 +42,7 @@ public class RandomGenerator {
             int secondWord = (int) (Math.random() * (NounLen));
             int adjective = (int) (Math.random() * (AdjLen));
             nickName.add(getPostWord(Adj[adjective] + Noun[firstWord], POST_POSITION_1, POST_POSITION_2)
-                    + " " + Noun[secondWord]);
+                    + WHITE_SPACE + Noun[secondWord]);
         }
         return nickName;
     }
