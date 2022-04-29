@@ -33,7 +33,7 @@ allprojects {
 Add dependency
 ```
 dependencies {
-	    implementation 'com.github.dhkstnaos:random-generator:Tag'
+	    implementation 'com.github.dhkstnaos:random-generator:v0.0.1'
 }
 ```
 
